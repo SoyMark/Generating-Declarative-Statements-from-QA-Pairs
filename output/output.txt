@@ -1,0 +1,2 @@
+It is Thursday.
+It is correct that 1+2 equals to 3.
