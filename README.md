@@ -21,7 +21,7 @@ To be honest, even though I tried my best to conduct objective tests, it's just 
 ```
 conda create -n QA2D python=3.7
 conda activate QA2D
-pip install -r requirements.txt
+pip install transformers
 pip install torch==1.11.0+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
 ```
 
