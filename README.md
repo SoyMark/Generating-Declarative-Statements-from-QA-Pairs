@@ -25,7 +25,7 @@ pip install -r requirements.txt
 pip install torch==1.11.0+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
 ```
 
-Then, download the model and unzip it 1to "QA2D/model".
+Then, download the model and unzip it to "QA2D/model".
 
 > https://drive.google.com/file/d/1wrKNMDd0n1KPDb1kl7jG4kgSSTY44kEs/view?usp=sharing
 
