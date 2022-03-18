@@ -29,6 +29,8 @@ Then, download the model and unzip it to "QA2D/model".
 
 > https://drive.google.com/file/d/1wrKNMDd0n1KPDb1kl7jG4kgSSTY44kEs/view?usp=sharing
 
+
+
 ## How to use
 
 #### Step 1
