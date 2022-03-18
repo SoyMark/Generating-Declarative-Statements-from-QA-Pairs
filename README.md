@@ -51,7 +51,7 @@ Run the following command
 python transform.py
 ```
 
-The output will be in "QA2D/input/input.txt"
+The output will be in "QA2D/output/output.txt"
 
 For example:
 
