@@ -12,16 +12,17 @@ and
 
 The result is that this model perform nearly as well as the rule-based model evaluated with BLEU and ROUGE score. However the sentence pattern is lack of diversity.
 
-To be honest, even though I tried my best to conduct objective tests, it's just a rough comparison, because the trainset and testset I can found were more or less different from what they used in the paper.
+To be honest, even though I tried my best to conduct objective tests, it's just a rough comparison, because the trainset and testset I could find were more or less different from what they used in the paper.
 
 
 
 ## Requirement
 
-```
+```bash
 conda create -n QA2D python=3.7
 conda activate QA2D
 pip install transformers
+pip install datasets
 pip install torch==1.11.0+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
 ```
 
