@@ -8,7 +8,7 @@ I compared the my model with other rule base models, including
 
 and
 
-> [paper2](https://arxiv.org/pdf/2112.03849.pdf) (2021), which propose **RBV2 model**
+> [paper2](https://arxiv.org/pdf/2112.03849.pdf) (2021), which proposes **RBV2 model**
 
 **Here are results compared to 2 Encoder Pointer-Gen model (on testset released by paper1)**
 
