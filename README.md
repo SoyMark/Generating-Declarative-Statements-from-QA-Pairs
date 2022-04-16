@@ -123,7 +123,7 @@ You may also use a [GEC model](https://github.com/SoyMark/gector_roberta) to mak
 
 
 
-#### Update(2022.4.16)
+### Update(2022.4.16)
 
 Constrained decode method is available in the new release of transformers (4.17.0 or later release). I've done some test on it. It truly makes sure the force words are in the generated sentences. However, the overall performance declines. Since QA2D is a relatively easy task, key words missing rarely occurs. So whether to use it depends on your goal.
 
