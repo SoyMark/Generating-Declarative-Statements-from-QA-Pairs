@@ -1,6 +1,6 @@
 # Generating Declarative Statements from QA Pairs
 
-There are already some rule-based models that can accomplish this task, but I haven't seen any transformer-based models that can do so. Therefore, I trained this model based on `Bart-base` to transform QA pairs into declarative statements.
+There have been several rule-based models that can accomplish this task, but I haven't seen any transformer-based models that can do so. Therefore, I trained this model based on `Bart-base` to transform QA pairs into declarative statements.
 
 I compared the my model with other rule base models, including 
 
