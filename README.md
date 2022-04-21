@@ -73,12 +73,12 @@ pip install torch==1.11.0+cu113 -f https://download.pytorch.org/whl/cu113/torch_
 
 ## How to use
 
-The model is uploaded to Huggingface, which means that you can use universal api to load the model. For example,
+The model is uploaded to Huggingface, which means that you can use the universal api to load the model. For example,
 
 ```python
 from transformers import BartTokenizer, BartForConditionalGeneration
-tokenizer = BartTokenizer.from_pretrained("MarkS/QA2D")
-model = BartForConditionalGeneration.from_pretrained("MarkS/QA2D")
+tokenizer = BartTokenizer.from_pretrained("MarkS/bart-base-qa2d")
+model = BartForConditionalGeneration.from_pretrained("MarkS/bart-base-qa2d")
 
 input_text = "question: what day is it today? answer: Tuesday"
 input = tokenizer(input_text, return_tensors='pt')
