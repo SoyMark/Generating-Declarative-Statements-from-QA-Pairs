@@ -1,7 +1,7 @@
 from transformers import BartTokenizer, BartForConditionalGeneration
 import torch
 
-tokenizer = BartTokenizer.from_pretrained("MarkS/QA2D")
+tokenizer = BartTokenizer.from_pretrained("MarkS/bart-base-qa2d")
 device = torch.device("cuda")
 
 def get_response(model, input_text, max_length=64, cuda=True):
@@ -40,7 +40,7 @@ def main(model_path, input_file_path, output_file_path,  batch_size=16):
         writer.close()
 
 if __name__ == "__main__":
-    best_model_path = "MarkS/QA2D"
+    best_model_path = "MarkS/bart-base-qa2d"
     input_file = "./input/input.txt"
     output_file = "./output/output.txt"
     main(best_model_path, input_file, output_file, batch_size=16)
